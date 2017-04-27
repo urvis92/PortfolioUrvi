@@ -163,7 +163,7 @@ color: #58595b;
   width:17%;
 }
 .social{
-  width: 17%;
+  width: 19%;
 }
 }
 
@@ -185,9 +185,9 @@ color: #58595b;
 }
 }
 @media only screen and (max-width: 550px) {
-  
+
 .social{
-  width:25%;
+  width:30%;
 }
 .contactinfo{
   width:25%;
@@ -221,9 +221,9 @@ color: #58595b;
   visibility: hidden;
 }
 .social{
-  width:30%;
+  width:35%;
   float:left;
-  margin-left: -60%;
+  margin-left: -55%;
 }
 .contactinfo{
   width:32%;

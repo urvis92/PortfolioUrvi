@@ -167,7 +167,7 @@ width: 17%;
   margin:0 10%;
   }
 .social{
-  width:25%;
+  width:28%;
 }
 .contactinfo{
   width:25%;
@@ -207,9 +207,9 @@ width: 17%;
   visibility: hidden;
 }
 .social{
-width:30%;
+width:35%;
   float:left;
-  margin-left: -60%;
+  margin-left: -55%;
 }
 .contactinfo{
   width:32%;
