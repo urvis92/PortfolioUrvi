@@ -1,0 +1,234 @@
+
+  .navigation{
+  display: flex;
+flex-direction: row;
+flex-flow: row wrap;
+justify-content: space-between;
+  width:30%;
+  margin-left:35%;
+  margin-right:35%;
+}
+
+.menuNames{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:#929292;
+  text-decoration: none;
+}
+.images{
+  display:block;
+width:30%;
+padding:15px;
+}
+.header{
+  max-width: 100%;
+     height: auto;
+     max-width: 100%;
+     max-height: 100%;
+     margin-top:10px;
+}
+.main{
+  display:flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  max-width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  padding:10px;
+}
+.picture{
+width:100%;
+
+
+}
+.hovertext{
+  font-size: 30px;
+  visibility:hidden;
+  text-align:center;
+  vertical-align: middle;
+  color: black;
+  z-index:100;
+  position: absolute;
+  top: 20%;left:20%;
+}
+
+.links{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:#929292;
+  text-decoration: none;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+max-width:100%;
+height:35px;
+padding:0 5%;
+padding-top: 16px;
+margin-top: 120px;
+background-color: #ffdd18;
+}
+p{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1.3em;
+  color:#58595b;
+  text-decoration: none;
+  padding:0;
+  margin:0;
+}
+
+.social{
+  width: 13%;
+  float: right;
+  display:flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.contactinfo{
+  width:10%;
+  display:flex;
+  justify-content: space-between;
+}
+.socialicons{
+  font-size: 1.5em;
+color: #58595b;
+}
+.socialicons:hover{
+  color:white;
+}
+
+
+
+/*.box:hover{
+  opacity:0.4;
+}
+.box:hover .hovertext{
+  visibility: visible;
+}*/
+
+
+/*.box2{
+  width: 28.33%;
+  height: 300px;
+  color: black;
+  background-image: url(halloween.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.box3{
+  width: 28.33%;
+  height: 300px;
+  color: black;
+  background-image: url(halloween.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}*/
+@media only screen and (max-width: 1250px){
+
+  .footer{
+    padding:0 3%;
+    padding-top: 16px;
+
+  }
+  .contactinfo{
+    width:12%;
+  }
+
+}
+@media only screen and (max-width: 1035px) {
+.main{
+  max-width:100%;
+  margin:0;
+}
+.images{
+  width:29%;
+  padding:5px;
+}
+.contactinfo{
+  width:100%;
+  width:17%;
+}
+@media only screen and (max-width: 950px) {
+.main{
+  max-width:100%;
+  margin:0;
+}
+.images{
+  width:48%;
+  padding:5px;
+}
+.contactinfo{
+  width:100%;
+  width:17%;
+}
+.social{
+  width: 17%;
+}
+}
+
+@media only screen and (max-width: 750px) {
+   .navigation{
+    visibility: hidden;
+  }
+.main{
+  max-width: 100%;
+  margin:0;
+}
+  .images{
+    width:48%;
+    padding: 3px;
+}
+.contactinfo{
+  width:19%;
+
+}
+}
+@media only screen and (max-width: 550px) {
+  
+.social{
+  width:25%;
+}
+.contactinfo{
+  width:25%;
+}
+
+}
+@media only screen and (max-width: 400px) {
+   .navigation{
+    visibility: hidden;
+  }
+  .header{
+    width:500%;
+    margin-top:-50px;
+  }
+  .main{
+    max-width:100%;
+    margin:0 5px;
+  }
+  .images{
+    width:100%;
+    padding:15px;
+
+}
+.footer{
+  max-width:100%;
+
+  padding-right:20px;
+  margin-top:20px;
+}
+.name{
+  visibility: hidden;
+}
+.social{
+  width:30%;
+  float:left;
+  margin-left: -60%;
+}
+.contactinfo{
+  width:32%;
+}
+.socialmediaicons{
+  font-size: 1em;
+}
+}

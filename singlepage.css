@@ -1,0 +1,220 @@
+a{
+  color:#929292;
+}
+.navigation{
+  display: flex;
+flex-direction: row;
+flex-flow: row wrap;
+justify-content: space-between;
+  width:30%;
+  margin-left:35%;
+  margin-right:35%;
+}
+
+a{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color:#929292;
+  text-decoration: none;
+}
+#maintitle{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 48px;
+  color:#929292;
+  margin-top: 10%;
+  margin-bottom: 20px;
+  text-align:center;
+}
+#subtitle{
+  font-family: 'Roboto', sans-serif;
+  color:#ffca14;
+  text-align:center;
+}
+#portfolio{
+  max-width: 90%;
+  padding:5%;
+margin:auto;
+}
+#title{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.descriptions{
+    font-family: 'Roboto', sans-serif;
+  color:#black;
+  font-size:14px;
+  line-height: 22px;
+  max-width:50%;
+  text-align:center;
+  margin-top: 35px;
+  padding:0 25%
+}
+.largeImage{
+max-width:100%;
+height: auto;
+margin:35px 0;
+
+}
+
+.smallimages{
+  width:45%;
+  height: auto;
+margin: auto;
+
+}
+.twoimages{
+  min-width:100%;
+display: flex;
+justify-content:space-between;
+flex-flow: wrap;
+flex-direction:row;
+margin: 35px 0;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+max-width:100%;
+height:35px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 16px;
+margin-top: 60px;
+background-color: #ffdd18;
+}
+p{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1.3em;
+  color:#58595b;
+  text-decoration: none;
+  padding:0;
+  margin:0;
+}
+
+.social{
+  width: 13%;
+  float: right;
+  display:flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.contactinfo{
+  width:10%;
+  display:flex;
+  justify-content: space-between;
+}
+.socialicons{
+  font-size: 1.5em;
+color: #58595b;
+}
+.socialicons:hover{
+  color:white;
+}
+@media only screen and (max-width: 1250px){
+
+  .footer{
+    padding:0 3%;
+    padding-top: 16px;
+
+  }
+  .contactinfo{
+    width:12%;
+  }
+
+}
+@media only screen and (max-width: 1035px) {
+
+.contactinfo{
+  max-width:100%;
+  width:17%;
+}
+@media only screen and (max-width: 950px) {
+  .navigation{
+  width:60%;
+  margin:0 20%;
+  }
+.descriptions{
+  max-width: 70%;
+  padding:0 15%;
+}
+.contactinfo{
+  width:17%;
+}
+.social{
+width: 17%;
+}
+}
+
+@media only screen and (max-width: 750px) {
+  .navigation{
+  width:80%;
+  margin:0 10%;
+  }
+.descriptions{
+  max-width:80%;
+  padding:0 10%;
+}
+.contactinfo{
+  width:19%;
+}
+}
+@media only screen and (max-width: 550px) {
+  .navigation{
+  width:80%;
+  margin:0 10%;
+  }
+.social{
+  width:25%;
+}
+.contactinfo{
+  width:25%;
+}
+
+}
+
+@media only screen and (max-width: 410px) {
+
+  .navigation{
+    visibility: hidden;
+  }
+  .maintitle{
+    margin-top:0;
+  }
+  .subtitle{
+    width:30%;
+  }
+.descriptions{
+  max-width:100%;
+  padding:0;
+  margin:10px;
+}
+.portfolio{
+  max-width:100%;
+}
+.largeImage{
+  margin: 15px 0;
+}
+.footer{
+  max-width:100%;
+
+  padding-right:20px;
+  margin-top:20px;
+}
+.name{
+  visibility: hidden;
+}
+.social{
+width:30%;
+  float:left;
+  margin-left: -60%;
+}
+.contactinfo{
+  width:32%;
+}
+.socialmediaicons{
+  font-size: 1em;
+}
+}
