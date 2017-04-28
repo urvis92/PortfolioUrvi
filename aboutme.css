@@ -85,3 +85,70 @@ color: #58595b;
 .socialicons:hover{
   color:white;
 }
+@media only screen and (max-width: 1035px) {
+.main{
+  max-width:100%;
+  margin:0;
+}
+.images{
+  width:29%;
+  padding:5px;
+}
+.contactinfo{
+  width:100%;
+  width:17%;
+}
+@media only screen and (max-width: 950px) {
+
+.contactinfo{
+  width:100%;
+  width:17%;
+}
+.social{
+  width: 19%;
+}
+}
+
+@media only screen and (max-width: 750px) {
+
+.contactinfo{
+  width:19%;
+
+}
+}
+@media only screen and (max-width: 550px) {
+
+.social{
+  width:30%;
+}
+.contactinfo{
+  width:25%;
+}
+
+}
+@media only screen and (max-width: 400px) {
+   .navigation{
+    visibility: hidden;
+  }
+
+.footer{
+  max-width:100%;
+
+  padding-right:20px;
+  margin-top:20px;
+}
+.name{
+  visibility: hidden;
+}
+.social{
+  width:35%;
+  float:left;
+  margin-left: -55%;
+}
+.contactinfo{
+  width:32%;
+}
+.socialmediaicons{
+  font-size: 1em;
+}
+}
