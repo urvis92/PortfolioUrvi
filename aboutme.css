@@ -126,11 +126,33 @@ color: #58595b;
 }
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
+
    .navigation{
     visibility: hidden;
   }
+.textbox{
+  max-width: 100%;
 
+  margin:0;
+}
+.selfimage{
+  width:90%;
+  max-width:100%;
+  float:left;
+  margin-right:2%;
+  margin-bottom:3%;
+  z-index: 100;
+}
+.introduction{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1em;
+  color:#58595b;
+  text-decoration: none;
+  padding:0;
+  margin-top:100px;
+  line-height: 110%;
+}
 .footer{
   max-width:100%;
 
